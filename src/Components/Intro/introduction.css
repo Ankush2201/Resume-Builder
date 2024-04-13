@@ -1,0 +1,324 @@
+.Bullet_Points {
+    display: flex;
+    margin: 5px 0px;
+    align-items: center;
+    font-weight: bold; /* Add font weight */
+  
+}
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+body {
+  background-color: #333;
+  color: #000000;
+}
+container {
+  background-image:  linear-gradient(90deg, rgba(255,255,255,0) 0%, XXXXXXXX 100%);
+            height: auto;
+            background-attachment: fixed;
+            background-size: cover;
+}
+.Bullet_Points p {
+    margin: 0px 5px;
+    font-weight: bold; 
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.test {
+  color: hsl(232, 94%, 48%);
+  font-size: 32px;
+  font-weight: bold;
+  padding-left: 10px;
+  font-family: 'clip';
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.test span {
+  transition: 0.5s ease-out;
+}
+.test:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+.test:hover span:nth-child(1):after {
+  content: "";
+}
+.test:hover span:nth-child(2) {
+  margin-left: 30px;
+}
+.test:hover span {
+  color: #0014c9;
+  text-shadow: 0 0 5px #c8c7e3, 0 0 10px #d4d3f3, 0 0 10px #dad9fd;
+}
+.texthome{
+  font-family: 'Clip';
+  background: linear-gradient(270deg, #0566b5, #0374f6, #0059ff, #900de6, #0000ff, #4b0082, #8f00ff);
+  font-size: 33px;
+  background-size: 200% 200%;
+  text-align: center;
+  padding-left: 2%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 3s ease infinite;
+}
+
+
+.templatesList {
+    font-family: "Poppins";
+    color: #fff;
+    text-align: center;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: bold; /* Add font weight */
+}
+
+.template {
+    font-family: "Poppins";
+    color: #fff;
+    text-align: center;
+    height: 300px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 13px;
+    margin: auto;
+    border: 1px solid black;
+    margin: 10px;
+    font-weight: bold; /* Add font weight */
+}
+
+.template img {
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+.Bullet_Points {
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.Bullet_Points Button {
+  background-color: #2a27e1; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.Bullet_Points Button:hover {
+  background-color: #0e8beb;
+}
+
+
+/* .Animate
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #6283d7 0%,
+    #784da3 29%,
+    rgb(32, 32, 218) 67%,
+    #f8f0ed 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 10s ease-in-out infinite;
+  display: inline-block;
+      font-size: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+} */
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient-large-text {
+  font-size: 100px; 
+  background: linear-gradient(270deg, #0566b5, #0374f6, #0059ff, #900de6, #0000ff, #4b0082);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 4s ease infinite;
+}
+.animate-gradient {
+  background: linear-gradient(270deg, #0566b5, #0374f6, #0059ff, #900de6, #0000ff, #4b0082, #8f00ff);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  animation: gradient 3s ease infinite;
+}
+
+.line-1{
+  position: relative;
+  font-family: 'Clip';  
+  width: 40px;
+  margin: 0 auto;
+  border-right: 2px solid rgb(248, 248, 248);
+  font-size: 100%;
+  text-align: center;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #0751e4;
+  transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+animation: typewriter 5s steps(44) 1s 4 normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 37em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgb(0, 30, 255);}
+to{border-right-color: transparent;}
+}
+
+.button-82-pushable {
+  position: absolute;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-82-shadow {
+  position: 
+  absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    hsl(246, 100%, 16%) 0%,
+    hsl(246, 100%, 32%) 8%,
+    hsl(246, 100%, 32%) 92%,
+    hsl(246, 100%, 16%) 100%
+  );
+}
+
+.button-82-front {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  font-weight: 900;
+  font-size: 100%;
+  font-family: 'Clip';
+  color: white;
+  background: hsl(252, 98%, 49%);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+  .button-82-front {
+    font-size: 1.25rem;
+    padding: 12px 42px;
+  }
+}
+
+.button-82-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+  transform: translateY(-6px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+  transform: translateY(4px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+  outline: none;
+}

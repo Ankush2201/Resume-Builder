@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c29bb500.css",
+    "main.js": "/static/js/main.efa143b9.js",
+    "static/media/18775.jpg": "/static/media/18775.0b433afb462cdab608d2.jpg",
+    "static/media/logos.png": "/static/media/logos.58d207a8d123aec6e4d5.png",
+    "static/media/Ankush.jpeg": "/static/media/Ankush.3d6f793de8110705a25f.jpeg",
+    "index.html": "/index.html",
+    "main.c29bb500.css.map": "/static/css/main.c29bb500.css.map",
+    "main.efa143b9.js.map": "/static/js/main.efa143b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c29bb500.css",
+    "static/js/main.efa143b9.js"
+  ]
+}

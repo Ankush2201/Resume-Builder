@@ -1,0 +1,97 @@
+/* Navbar.css */
+
+.navbar {
+  width: 100%; /* Ensures the navbar stretches across the full width */
+  background-color: #ffffff; /* Set your background color */
+  color: #131111; /* Set your text color */
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds shadow to navbar */
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: center; /* Center all content horizontally */
+  align-items: center; /* Align vertically */
+  text-align: center;
+  flex-wrap: wrap; /* Ensures content wraps on smaller screens */
+}
+
+.logo {
+  
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: center; /* Centers the child elements horizontally */
+  align-items: center; /* Aligns children vertically */
+  text-align: center;
+}
+
+.navbar-link {
+  margin: 0 20px; /* Symmetric spacing for each link */
+}
+
+.navbar-link a {
+  text-decoration: none;
+  color: #000000; /* Set link color */
+  font-weight: bold;
+  display: block; /* Ensures the link utilizes full space for centering */
+  text-align: center; /* Centers text within each link */
+}
+
+.navbar-toggle {
+  cursor: pointer;
+  display: none; /* Hide toggle on larger screens */
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #333; /* Set mobile menu background color */
+  padding: 10px;
+}
+
+.mobile-menu a {
+  color: #fff; /* Set mobile menu link color */
+  text-decoration: none;
+  margin-bottom: 10px; /* Adjust spacing between mobile menu links */
+  text-align: center; /* Ensures text is centered in mobile links */
+}
+
+/* Media Query for Mobile Toggle */
+@media only screen and (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .mobile-menu {
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-100%);
+  }
+  
+  .mobile-menu.active {
+    transform: translateY(0);
+  }
+  
+}
+
+/* Centering links in the mobile menu */
+.mobile-menu-links a {
+  display: block;
+  padding: 10px; /* Add padding for better touch targets */
+}
+
+/* Hover effect for desktop menu links */
+.navbar-link a:hover {
+  color: #0062ff; /* Change color on hover */
+}
+
+/* Hover effect for mobile menu links */
+.mobile-menu-links a:hover {
+  background-color: #444; /* Slight background change on hover */
+}
+
